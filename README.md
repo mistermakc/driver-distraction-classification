@@ -10,7 +10,7 @@ This repository contains code for a driver distraction classification model usin
 5. [License](#license)
 
 ## Introduction
-The driver distraction classification model is developed to assist in identifying different distraction types of drivers using images. The model employs transfer learning techniques with pre-trained CNN models like VGG16 and EfficientNet. The repository includes code for data preprocessing, model training, evaluation, and deployment.
+The driver distraction classification model is developed to assist in identifying different distraction types of drivers using images. The model employs transfer learning techniques with pre-trained CNN models like VGG16 and MobileNetV3. The repository includes code for data preprocessing, model training, evaluation, and deployment.
 
 
 ## Usage
@@ -22,7 +22,7 @@ The driver distraction classification model is developed to assist in identifyin
 - Run the Jupyter Notebook or Python script to explore the dataset and preprocess the images.
 
 3. Model training:
-- Choose the desired model architecture (CNN, VGG16, or EfficientNet) by uncommenting the respective sections in the code.
+- Choose the desired model architecture (CNN, VGG16, or MobileNetV3) by uncommenting the respective sections in the code.
 - Run the training code to train the model using the preprocessed dataset.
 
 4. Model evaluation:
